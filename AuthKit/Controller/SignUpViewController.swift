@@ -20,10 +20,23 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func onTapSignUp(_ sender: UIButton) {
-        print("Button tapped")
+        let fields: [(UITextField, String)] = [
+            (fullNameTextField, "Name couldn't be empty!"),
+            (emailTextField, "Email couldn't be empty!"),
+            (passwordTextField, "Password couldn't be empty!"),
+            (confirmPasswordTextField, "Password confirmation couldn't be empty!")
+        ]
+        
+        for (field, errorMessage) in fields {
+            if field.text?.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty == true {
+                view.showToast(message: errorMessage)
+                return
+            }
+        }
+        
         if passwordTextField.text != confirmPasswordTextField.text {
-            print("HEllo")
             view.showToast(message: "Password didn't match!")
+            return
         }
     }
     
