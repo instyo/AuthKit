@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		44C5E2A62F90A16500821D6C /* Google Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C5E2A62F90A16500821D6C /* AuthKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		44C5E2B82F90A16600821D6C /* Exceptions for "Google Auth" folder in "Google Auth" target */ = {
+		44C5E2B82F90A16600821D6C /* Exceptions for "AuthKit" folder in "AuthKit" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 44C5E2A52F90A16500821D6C /* Google Auth */;
+			target = 44C5E2A52F90A16500821D6C /* AuthKit */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		44C5E2A82F90A16500821D6C /* Google Auth */ = {
+		44C5E2A82F90A16500821D6C /* AuthKit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				44C5E2B82F90A16600821D6C /* Exceptions for "Google Auth" folder in "Google Auth" target */,
+				44C5E2B82F90A16600821D6C /* Exceptions for "AuthKit" folder in "AuthKit" target */,
 			);
-			path = "Google Auth";
+			path = AuthKit;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		44C5E29D2F90A16500821D6C = {
 			isa = PBXGroup;
 			children = (
-				44C5E2A82F90A16500821D6C /* Google Auth */,
+				44C5E2A82F90A16500821D6C /* AuthKit */,
 				44C5E2A72F90A16500821D6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		44C5E2A72F90A16500821D6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44C5E2A62F90A16500821D6C /* Google Auth.app */,
+				44C5E2A62F90A16500821D6C /* AuthKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44C5E2A52F90A16500821D6C /* Google Auth */ = {
+		44C5E2A52F90A16500821D6C /* AuthKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44C5E2B92F90A16600821D6C /* Build configuration list for PBXNativeTarget "Google Auth" */;
+			buildConfigurationList = 44C5E2B92F90A16600821D6C /* Build configuration list for PBXNativeTarget "AuthKit" */;
 			buildPhases = (
 				44C5E2A22F90A16500821D6C /* Sources */,
 				44C5E2A32F90A16500821D6C /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				44C5E2A82F90A16500821D6C /* Google Auth */,
+				44C5E2A82F90A16500821D6C /* AuthKit */,
 			);
-			name = "Google Auth";
+			name = AuthKit;
 			packageProductDependencies = (
 			);
 			productName = "Google Auth";
-			productReference = 44C5E2A62F90A16500821D6C /* Google Auth.app */;
+			productReference = 44C5E2A62F90A16500821D6C /* AuthKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44C5E2A12F90A16500821D6C /* Build configuration list for PBXProject "Google Auth" */;
+			buildConfigurationList = 44C5E2A12F90A16500821D6C /* Build configuration list for PBXProject "AuthKit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44C5E2A52F90A16500821D6C /* Google Auth */,
+				44C5E2A52F90A16500821D6C /* AuthKit */,
 			);
 		};
 /* End PBXProject section */
@@ -147,12 +147,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z5GXS6AYDN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Google Auth/Info.plist";
+				INFOPLIST_FILE = AuthKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -179,12 +180,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z5GXS6AYDN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Google Auth/Info.plist";
+				INFOPLIST_FILE = AuthKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44C5E2A12F90A16500821D6C /* Build configuration list for PBXProject "Google Auth" */ = {
+		44C5E2A12F90A16500821D6C /* Build configuration list for PBXProject "AuthKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44C5E2BC2F90A16600821D6C /* Debug */,
@@ -335,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44C5E2B92F90A16600821D6C /* Build configuration list for PBXNativeTarget "Google Auth" */ = {
+		44C5E2B92F90A16600821D6C /* Build configuration list for PBXNativeTarget "AuthKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44C5E2BA2F90A16600821D6C /* Debug */,
